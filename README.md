@@ -6,6 +6,7 @@ Mac apps and command-line tools by [Ihar Yazerski](https://github.com/iyazerski)
 
 ```sh
 brew install --cask iyazerski/tap/quill
+brew install iyazerski/tap/lspyx
 ```
 
 To install by the short name, add and trust the tap once. Homebrew loads casks from other taps only once you trust them:
@@ -14,13 +15,15 @@ To install by the short name, add and trust the tap once. Homebrew loads casks f
 brew tap iyazerski/tap
 brew trust iyazerski/tap
 brew install --cask quill
+brew install lspyx
 ```
 
-## Apps
+## Apps and tools
 
 | Name | Install | What it does |
 | --- | --- | --- |
 | [Quill](https://github.com/iyazerski/quill) | `brew install --cask iyazerski/tap/quill` | Fix grammar and translate selected text in any Mac app with one shortcut. |
+| [lspyx](https://github.com/iyazerski/lspyx) | `brew install iyazerski/tap/lspyx` | Python code navigation and diagnostics for AI coding agents, as an MCP server and CLI. Runs on macOS and Linux. |
 
 ## Unsigned apps
 

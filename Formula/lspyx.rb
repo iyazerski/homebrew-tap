@@ -1,7 +1,6 @@
 class Lspyx < Formula
   desc "Python code navigation and diagnostics for AI coding agents"
   homepage "https://github.com/iyazerski/lspyx"
-  version "0.6.0"
   license "MIT"
 
   on_macos do
