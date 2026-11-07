@@ -8,10 +8,11 @@ Mac apps and command-line tools by [Ihar Yazerski](https://github.com/iyazerski)
 brew install --cask iyazerski/tap/quill
 ```
 
-Or add the tap once, then install by name:
+To install by the short name, add and trust the tap once. Homebrew loads casks from other taps only once you trust them:
 
 ```sh
 brew tap iyazerski/tap
+brew trust iyazerski/tap
 brew install --cask quill
 ```
 
