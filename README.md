@@ -5,7 +5,7 @@ Mac apps and command-line tools by [Ihar Yazerski](https://github.com/iyazerski)
 ## Install
 
 ```sh
-brew install --cask iyazerski/tap/quill
+brew install --cask iyazerski/tap/fettle
 brew install iyazerski/tap/lspyx
 ```
 
@@ -14,7 +14,7 @@ To install by the short name, add and trust the tap once. Homebrew loads casks f
 ```sh
 brew tap iyazerski/tap
 brew trust iyazerski/tap
-brew install --cask quill
+brew install --cask fettle
 brew install lspyx
 ```
 
@@ -22,7 +22,7 @@ brew install lspyx
 
 | Name | Install | What it does |
 | --- | --- | --- |
-| [Quill](https://github.com/iyazerski/quill) | `brew install --cask iyazerski/tap/quill` | Fix grammar and translate selected text in any Mac app with one shortcut. |
+| [Fettle](https://github.com/iyazerski/fettle) | `brew install --cask iyazerski/tap/fettle` | Fix grammar and translate selected text in any Mac app with one shortcut. |
 | [lspyx](https://github.com/iyazerski/lspyx) | `brew install iyazerski/tap/lspyx` | Python code navigation and diagnostics for AI coding agents, as an MCP server and CLI. Runs on macOS and Linux. |
 
 ## Unsigned apps
@@ -31,4 +31,4 @@ These apps aren't notarized by Apple, so macOS blocks each one the first time yo
 
 ## Updates
 
-Each project's release pipeline updates its cask or formula here. Apps that update themselves, like Quill, are marked `auto_updates`, so `brew upgrade` leaves them alone unless you add `--greedy`.
+Each project's release pipeline updates its cask or formula here. Apps that update themselves, like Fettle, are marked `auto_updates`, so `brew upgrade` leaves them alone unless you add `--greedy`.
