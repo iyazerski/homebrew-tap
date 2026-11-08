@@ -1,6 +1,6 @@
 cask "fettle" do
-  version "0.4.2"
-  sha256 "5feed0d8027ab5aa0f8aefeaa658fd5a41dea7b8b80dee900ff078be990ef488"
+  version "0.4.3"
+  sha256 "48cf57087e4401172dece5deda1b2132a13239135e2c179358ee35c8eed05d78"
 
   url "https://github.com/iyazerski/fettle/releases/download/v#{version}/Fettle.zip"
   name "Fettle"
