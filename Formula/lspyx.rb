@@ -5,23 +5,23 @@ class Lspyx < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.0/lspyx-aarch64-apple-darwin.tar.gz"
-      sha256 "a95efdf2a13a3af73970eee99a05dc9f8142eba7e97085daa6223e2e457c3827"
+      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.1/lspyx-aarch64-apple-darwin.tar.gz"
+      sha256 "89963d19fa6b401812b05d53e45d59cc5d94e211ab5a523a633f3176cecd501d"
     end
     on_intel do
-      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.0/lspyx-x86_64-apple-darwin.tar.gz"
-      sha256 "8a58868c62a4950e8f4ded94c610001c59ea4f590810b685ab542479542b2254"
+      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.1/lspyx-x86_64-apple-darwin.tar.gz"
+      sha256 "f89c0b08df072503d9555bbbe026f007a631aa983a76721a1b7f33b91bc3c3ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.0/lspyx-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8222005fe4df143cf2ff1207dfd385212e1463c1a224668ab7ec285c4fb01984"
+      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.1/lspyx-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "da8c83ed8479dde87d8f61ef4071811dad53be6585b3d13b6215452071bfc7fe"
     end
     on_intel do
-      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.0/lspyx-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "131b6734eacb0b279f396ba6c17aa5922932582cf415655b31035b6d618f1b4c"
+      url "https://github.com/iyazerski/lspyx/releases/download/v0.6.1/lspyx-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cbdbc96f1581d55092a3b59c134b0f3309635db3da2462a4af4e4fdfbb224c91"
     end
   end
 
