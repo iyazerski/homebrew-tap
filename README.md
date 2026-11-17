@@ -8,6 +8,7 @@ Mac apps and command-line tools by [Ihar Yazerski](https://github.com/iyazerski)
 brew install --cask iyazerski/tap/fettle
 brew install --cask iyazerski/tap/ludolph
 brew install iyazerski/tap/lspyx
+brew install iyazerski/tap/clipsync
 ```
 
 To install by the short name, add and trust the tap once. Homebrew loads casks from other taps only once you trust them:
@@ -18,6 +19,7 @@ brew trust iyazerski/tap
 brew install --cask fettle
 brew install --cask ludolph
 brew install lspyx
+brew install clipsync
 ```
 
 ## Apps and tools
@@ -27,6 +29,7 @@ brew install lspyx
 | [Fettle](https://github.com/iyazerski/fettle) | `brew install --cask iyazerski/tap/fettle` | Fix grammar and translate selected text in any Mac app with one shortcut. |
 | [Ludolph](https://github.com/iyazerski/ludolph) | `brew install --cask iyazerski/tap/ludolph` | A fast, native Mac app to run and follow pi coding agents, from the Mac or your phone. |
 | [lspyx](https://github.com/iyazerski/lspyx) | `brew install iyazerski/tap/lspyx` | Python code navigation and diagnostics for AI coding agents, as an MCP server and CLI. Runs on macOS and Linux. |
+| [clipsync](https://github.com/iyazerski/clipsync) | `brew install iyazerski/tap/clipsync` | Sync the clipboard between Mac, Windows and Android through your own relay. Runs on Macs with Apple silicon. |
 
 ## Unsigned apps
 
