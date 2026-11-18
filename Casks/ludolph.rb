@@ -1,6 +1,6 @@
 cask "ludolph" do
-  version "0.2.4"
-  sha256 "f22a80642cdd681944e72fb4b040c461e260defe3924451202fb151fd2b66dd4"
+  version "0.2.5"
+  sha256 "b88556e1de3c6dcba8fc97d5abfe63bf626095721cc2e348e2a06bf32170a3e7"
 
   url "https://github.com/iyazerski/ludolph/releases/download/v#{version}/Ludolph.zip"
   name "Ludolph"
