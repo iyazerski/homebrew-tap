@@ -1,8 +1,8 @@
 class Clipsync < Formula
   desc "Sync the clipboard between Mac, Windows and Android through your own relay"
   homepage "https://github.com/iyazerski/clipsync"
-  url "https://github.com/iyazerski/clipsync/releases/download/v0.1.13/clipsync-aarch64-apple-darwin.tar.gz"
-  sha256 "3567c830645d50b19c75e7e4eee06c59fa61cc5a233012a1a52a29ec423ec960"
+  url "https://github.com/iyazerski/clipsync/releases/download/v0.1.15/clipsync-aarch64-apple-darwin.tar.gz"
+  sha256 "fc0bea7c019ff298269cd6dac47f7d9a4ef7a6ec7944f062d5b7482765115e6d"
   license "MIT"
 
   depends_on arch: :arm64
