@@ -1,8 +1,8 @@
 class Clipsync < Formula
-  desc "Sync the clipboard between Mac, Windows and Android through your own relay"
+  desc "Sync the clipboard between Mac, Windows and Android, end-to-end encrypted"
   homepage "https://github.com/iyazerski/clipsync"
-  url "https://github.com/iyazerski/clipsync/releases/download/v0.1.16/clipsync-aarch64-apple-darwin.tar.gz"
-  sha256 "e4b53352773ab8e2ae37c1b1a6dbf8f344de5ff444775d56a8b37c25db39f289"
+  url "https://github.com/iyazerski/clipsync/releases/download/v0.1.17/clipsync-aarch64-apple-darwin.tar.gz"
+  sha256 "35b334fe304585829f7403cdf8c4e62a123b1078140d94e430e7368ddd5c704f"
   license "MIT"
 
   depends_on arch: :arm64
@@ -22,9 +22,9 @@ class Clipsync < Formula
   def caveats
     <<~EOS
       To start syncing, run:
-        clipsync setup --relay https://clip.example.com
-      with your relay's address. To host a relay, see
-        https://github.com/iyazerski/clipsync#get-started
+        clipsync setup
+      It uses the public relay. To host your own, see
+        https://github.com/iyazerski/clipsync#host-your-own-relay
     EOS
   end
 
