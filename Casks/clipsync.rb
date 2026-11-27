@@ -1,6 +1,6 @@
 cask "clipsync" do
-  version "0.2.5"
-  sha256 "e7cd8fca948b6eb5cfb2119cb6724c35c49a26f55e978be1258643ae2457808b"
+  version "0.2.6"
+  sha256 "4ea359f62af3e057f8045ad05d08bb949d8d797eeb25ef461edf9f18a9173d1f"
 
   url "https://github.com/iyazerski/clipsync/releases/download/v#{version}/clipsync-#{version}-darwin-universal.tar.gz"
   name "clipsync"
